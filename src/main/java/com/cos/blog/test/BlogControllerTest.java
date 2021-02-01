@@ -12,6 +12,6 @@ public class BlogControllerTest {
 	//http://localhost:8080/test/hello
 	@GetMapping("/test/hello")
 	public String hello() {
-		return "<h1>hello spring boot</h1>";
+		return "<h1>hello spring boot!!</h1>";
 	}
 }
