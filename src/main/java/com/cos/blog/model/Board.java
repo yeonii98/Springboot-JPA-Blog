@@ -42,7 +42,7 @@ public class Board {
 	private int count; //조회수
 	
 	@ManyToOne	(fetch = FetchType.EAGER)	//Many = Board, One = User  한 명의 User는 여러 개의 게시글을 쓸 수 있따.
-	//MantToOne의 기본전략 : EAGER 타입 : Board테이블을 가져올 때 무조건 가져온다.
+	//ManyToOne의 기본전략 : EAGER 타입 : Board테이블을 가져올 때 무조건 가져온다.
 	@JoinColumn(name="userId") //userId라는 컬럼 만들어짐
 	private User user; //DB는 오브젝트를 저장할 수 없다. FK사용..자바는 오브젝트를 저장할 수 있다.
 	
