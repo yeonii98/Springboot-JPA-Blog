@@ -29,7 +29,7 @@
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 
 			<c:choose>
-				<c:when test=" ${empty principal}" >
+				<c:when test="${empty principal}">
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="/auth/loginForm">로그인</a></li>
 						<li class="nav-item"><a class="nav-link" href="/auth/joinForm">회원가입</a></li>
