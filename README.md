@@ -22,10 +22,7 @@
 ### 메인화면
 ![image](https://user-images.githubusercontent.com/76156034/107854059-c53ba880-6e5c-11eb-9488-e83e3e378114.png)
 
-### 게시판 화면
-
-
-### 게시글 화면
+### 글 상세보기
 
 
 
