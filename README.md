@@ -9,15 +9,10 @@
 * 회원가입
 ---
 ### 개발 환경
-* STS 4
-* MySQL Workbench 8
-* BootStrap 4
-* Summernote
-### 사용 언어
-* Java
-* JavaScript
-* HTML
-* CSS
+* IDE : Spring Tool Suite 4
+* DBMS : MySQL 5.7
+* Frontend : BootStrap 4, Summernote, HTML, CSS
+* Backend : JAVA, JavaScript
 ---
 ### 메인화면
 ![image](https://user-images.githubusercontent.com/76156034/107854059-c53ba880-6e5c-11eb-9488-e83e3e378114.png)
