@@ -10,8 +10,9 @@
 ---
 ### 개발 환경
 * STS 4
-* BootStrap 4
 * MySQL Workbench 8
+* BootStrap 4
+* Summernote
 ### 사용 언어
 * Java
 * JavaScript
@@ -25,13 +26,6 @@
 
 
 ### 게시글 화면
-
----
----
-### 직접 구현한 기능
-
----
-### 더 추가해 보고 싶은 기능
 
 
 
