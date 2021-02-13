@@ -20,7 +20,7 @@
 * CSS
 ---
 ### 메인화면
-
+![image](https://user-images.githubusercontent.com/76156034/107854059-c53ba880-6e5c-11eb-9488-e83e3e378114.png)
 
 ### 게시판 화면
 
