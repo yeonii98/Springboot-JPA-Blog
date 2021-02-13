@@ -23,6 +23,6 @@
 ![image](https://user-images.githubusercontent.com/76156034/107854059-c53ba880-6e5c-11eb-9488-e83e3e378114.png)
 
 ### 글 상세보기
-
+![image](https://user-images.githubusercontent.com/76156034/107854095-07fd8080-6e5d-11eb-9886-45f456be272e.png)
 
 
