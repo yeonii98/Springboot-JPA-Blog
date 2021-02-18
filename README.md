@@ -7,7 +7,7 @@
 * IDE : Spring Tool Suite 4
 * DBMS : MySQL 5.7
 * Frontend : BootStrap 4, Summernote, HTML, CSS
-* Backend : Java, JavaScript
+* Backend : Java, JavaScript, Spring Boot, Spring Security
 ---
 ### 기능
 * 게시글 CRUD
