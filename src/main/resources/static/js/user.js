@@ -4,6 +4,9 @@ let index = {
 		$("#btn-save").on("click", () => {//버튼의 id, on("어떤 이벤트?",이벤트가 수행되면 무엇을 할 건지?)
 			this.save();
 		});
+		$("#btn-update").on("click", () => {//버튼의 id, on("어떤 이벤트?",이벤트가 수행되면 무엇을 할 건지?)
+			this.update();//현재 페이지에 있는 update요청
+		});
 	},
 //let은 변수 선언 방식으로 블록 범위 변수 제공
 	save: function() {
@@ -36,7 +39,28 @@ let index = {
 			alert(JSON.stringfy(error));
 		}); 
 	},
-
+	
+	update: function() {
+		let data = {
+			id : $("#id").val(),
+			username : $("#username").val(),
+			password: $("#password").val(),
+			email: $("#email").val()
+		};
+		
+		$.ajax({
+			type:"PUT", 
+			url:"/user",
+			data: JSON.stringify(data), 
+			contentType:"application/json; charset=utf-8",
+			dataType:"json"
+		}).done(function(resp){
+			alert("회원 수정이 완료되었습니다.");
+			location.href="/";
+		}).fail(function(error){
+			alert(JSON.stringfy(error));
+		}); 
+	},
 }
 
-index.init();//index에 있는 init 함수를 호출해라!
+index.init();

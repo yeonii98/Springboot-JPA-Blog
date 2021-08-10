@@ -5,7 +5,7 @@
 <sec:authorize access="isAuthenticated()">
 	<sec:authentication property="principal" var="principal"/>
 </sec:authorize>
-
+<!-- 로그인 된 객체가 principal이라는 객체에 들어있다. -->
 <!DOCTYPE html>
 <html>
 <head>
