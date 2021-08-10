@@ -14,9 +14,10 @@
 		</div>
 		
 		<button id="btn-login" class="btn btn-primary">로그인</button>
+		
 	</form>
-	
 </div>
+
 <%@ include file="../layout/footer.jsp"%>
 
 
